@@ -1,0 +1,230 @@
+.header {
+    // .bg('../img/header-bg_01.png');
+    padding: 60px 0 250px;
+    // position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: url("./header-bg_01.png"); */
+	/* background-size: cover; */
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+.container{
+    position: relative;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+    &-logo {
+        position: relative;
+
+        .plus {
+            position: absolute;
+            top: 77px;
+            left: 25px;
+        }
+    }
+
+    .nav-right {
+        .md-block( {
+                position: relative;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+        );
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 1;
+
+        .md-block( {
+                width: 150px;
+                // display: none;
+                position: absolute;
+                top:-350px;
+                right: 15px;
+                flex-direction: column;
+                border: 1px solid transparent;
+                background: #464881a9;
+                // opacity: 0.5;
+            }
+
+        );
+
+        .sm-block( {}
+
+        );
+
+        li {
+            border-bottom: 1px solid transparent;
+            padding-bottom: 8px;
+
+            .md-block( {
+                    // border: 1px solid #2b2d5c;
+                    padding: 13px 0 13px 25px;
+                    border-bottom: 1px solid #c2c2c567;
+                }
+
+            );
+
+            a {
+                font-weight: 600;
+                
+            }
+            a:hover{
+                border-bottom: 2px solid @yellow;
+                .md-block({
+                    border-bottom: none;
+                });
+            }
+        }
+
+        li:hover {
+            // border-bottom: 1px solid @yellow;
+
+            .md-block( {
+                    border-left: 3px solid @yellow;
+                    border-bottom: 1px solid #c2c2c567;
+                }
+
+            );
+        }
+
+        li:last-child {
+            .md-block( {
+                    border-bottom: none;
+                }
+
+            );
+        }
+    }
+
+    .burger {
+        background: none;
+        border: 2px solid @white;
+        color: @white;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 5px;
+        display: none;
+
+        .md-block( {
+                display: inline-block;
+            }
+
+        );
+        .sm-block( {
+            border: none;
+        }
+
+    );
+    }
+
+    h1 {
+        font-size: 60px;
+        font-weight: 300;
+        font-family: 'Trirong';
+        color: @white;
+        margin-top: 260px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 200;
+        color: @white;
+        margin-bottom: 75px;
+    }
+
+    .see_my_works {
+        font-size: 16px;
+        color: #2b2d5c;
+        text-transform: capitalize;
+        padding: 16px 50px;
+        border-radius: 28px;
+        background: @yellow;
+
+        .md-block( {
+                // display: flex;
+                // flex-wrap: wrap;
+                justify-content: center;
+            }
+
+        );
+    }
+
+    .see_my_works:hover {
+        box-shadow: 0 0 50px rgba(35, 157, 173, 0.5);
+    }
+
+    .social {
+        position: absolute;
+        bottom: -205px;
+        right: 99px;
+
+        .fa {
+            margin-left: 21px;
+            font-size: 23px;
+            position: relative;
+
+        }
+
+        // .fa:hover {}
+
+        img {
+            position: absolute;
+            bottom: -33px;
+            right: -100px;
+        }
+
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: -205px;
+        left: 49%;
+
+        .lg-block( {
+                left: 25%;
+            }
+
+        );
+
+        .md-block( {
+                display: none;
+            }
+
+        );
+
+    }
+
+    .active {
+        border-bottom: 2px solid @yellow !important;
+        .md-block({
+            border-bottom: none;
+        });
+    }
+    .active:hover {
+        color: @yellow;
+        border-bottom: 2px solid @yellow !important;
+        .md-block({
+            border-bottom: none;
+        });
+    }
+
+
+
+}

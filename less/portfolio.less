@@ -1,0 +1,152 @@
+.portfolio {
+    background: @white;
+    padding: 100px 0 120px;
+    .md-block({
+       padding-bottom: 50px; 
+    });
+
+    &-yellow {
+        background: @yellow;
+        padding: 100px 60px 170px 45px;
+        // padding-right: 15px;
+        .lg-block({
+            margin-bottom: 50px;
+        });
+
+        h4 {
+            font-size: 40px;
+            font-family: 'Trirong';
+            font-weight: normal;
+            color: #2b2d5c;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #2b2d5c;
+            line-height: 28px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        a {
+            font-weight: 600;
+            color: #2b2d5c;
+            font-size: 16px;
+        }
+    }
+
+    .middle {
+        padding-right: 0;
+            .lg-block({
+                padding-right: 15px;
+            });
+    }
+
+    &-middle-top {
+        height: 310px;
+        .bg('../img/portfolio1_03.png');
+        margin-bottom: 33px;
+        display: block;
+        text-align: center;
+        padding: 255px 0 10px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: flex-end;
+        // flex-wrap: wrap;
+        // position: relative;
+
+        .share {
+            // display: block;
+            // position: absolute;
+            // bottom: 50px;
+            // left: 49%;
+            
+            margin: 0px auto;
+        }
+
+        .social {
+            // position: absolute;
+            // bottom: 20px;
+            margin: 10px auto;
+            // transform: translateX(-50%);
+            // left: 34%;
+            .lg-block({
+                left: 43%;
+            });
+
+            .fa {
+                margin: 0 8px;
+                color: @yellow;
+            }
+
+        }
+    }
+
+
+    &-middle-bottom {
+        .lg-block({
+            text-align: center;
+        });
+        img {
+            width: 100%;
+            margin-bottom: 79px;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: @yellow;
+            // margin-top: 79px;
+            padding: 19px 70px;
+            border: 1px solid @yellow;
+            border-radius: 24px;
+            margin-bottom: 50px;
+
+        }
+    }
+
+    .portfolio-right-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+
+        .men {
+            height: 65%;
+            width: 73%;
+        }
+
+        .women {
+            height: 45%;
+            width: 25.5%;
+        }
+    }
+
+    .portfolio-right-middle {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+
+        img {
+            width: 49%;
+        }
+
+        // .violin{
+        //     width: 50%;
+        // }
+
+    }
+
+    .portfolio-right-bottom {
+        img {
+            width: 100%;
+        }
+    }
+    .bottom{
+        // .lg-block({
+            // margin-top: 50px;
+        // });
+    }
+    .ping{
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli';
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: @white;
+}
+
+.open {
+    display: flex !important;
+}
+
+.active {
+    border-bottom: 2px solid @yellow;
+    color: @yellow;
+
+    .md-block( {
+            border-bottom: none;
+        }
+
+    );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Trirong';
+    color: #2b2d5c;
+}
+
+#top {
+    display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 10;
+
+    img {
+        // i {
+        // filter: brightness(10) invert(1);
+        font-size: 35px;
+        padding: 15px;
+        border-radius: 3px;
+        color: rgb(83, 83, 83);
+        opacity: 0.5;
+        width: 70px;
+        height: 70px;
+        background: none;
+        // width: 100%;
+        // height: auto;
+    }
+
+    img:hover {
+        opacity: 1;
+        filter: contrast(80%) brightness(70%);
+        // background: #000;
+    }
+}
+
+.see_my_works:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(172, 121, 41) !important;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+@import './params/mix.less';
+@import './params/var.less';
+@import './header.less';
+@import './about.less';
+@import './clients.less';
+@import './portfolio.less';
+@import './blog.less';
+@import './lets_work.less';
+@import './footer.less';
+
+
+
+
+@import '../fonts/Muli/stylesheet.css';
+@import '../fonts/Trirong/stylesheet.css';

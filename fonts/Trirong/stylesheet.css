@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Light.eot');
+    src: url('Trirong-Light.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Light.woff2') format('woff2'),
+        url('Trirong-Light.woff') format('woff'),
+        url('Trirong-Light.ttf') format('truetype'),
+        url('Trirong-Light.svg#Trirong-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-LightItalic.eot');
+    src: url('Trirong-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-LightItalic.woff2') format('woff2'),
+        url('Trirong-LightItalic.woff') format('woff'),
+        url('Trirong-LightItalic.ttf') format('truetype'),
+        url('Trirong-LightItalic.svg#Trirong-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-SemiBoldItalic.eot');
+    src: url('Trirong-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-SemiBoldItalic.woff2') format('woff2'),
+        url('Trirong-SemiBoldItalic.woff') format('woff'),
+        url('Trirong-SemiBoldItalic.ttf') format('truetype'),
+        url('Trirong-SemiBoldItalic.svg#Trirong-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-ExtraLight.eot');
+    src: url('Trirong-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-ExtraLight.woff2') format('woff2'),
+        url('Trirong-ExtraLight.woff') format('woff'),
+        url('Trirong-ExtraLight.ttf') format('truetype'),
+        url('Trirong-ExtraLight.svg#Trirong-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Bold.eot');
+    src: url('Trirong-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Bold.woff2') format('woff2'),
+        url('Trirong-Bold.woff') format('woff'),
+        url('Trirong-Bold.ttf') format('truetype'),
+        url('Trirong-Bold.svg#Trirong-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-MediumItalic.eot');
+    src: url('Trirong-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-MediumItalic.woff2') format('woff2'),
+        url('Trirong-MediumItalic.woff') format('woff'),
+        url('Trirong-MediumItalic.ttf') format('truetype'),
+        url('Trirong-MediumItalic.svg#Trirong-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-ThinItalic.eot');
+    src: url('Trirong-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-ThinItalic.woff2') format('woff2'),
+        url('Trirong-ThinItalic.woff') format('woff'),
+        url('Trirong-ThinItalic.ttf') format('truetype'),
+        url('Trirong-ThinItalic.svg#Trirong-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Regular.eot');
+    src: url('Trirong-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Regular.woff2') format('woff2'),
+        url('Trirong-Regular.woff') format('woff'),
+        url('Trirong-Regular.ttf') format('truetype'),
+        url('Trirong-Regular.svg#Trirong-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-BoldItalic.eot');
+    src: url('Trirong-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-BoldItalic.woff2') format('woff2'),
+        url('Trirong-BoldItalic.woff') format('woff'),
+        url('Trirong-BoldItalic.ttf') format('truetype'),
+        url('Trirong-BoldItalic.svg#Trirong-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-BlackItalic.eot');
+    src: url('Trirong-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-BlackItalic.woff2') format('woff2'),
+        url('Trirong-BlackItalic.woff') format('woff'),
+        url('Trirong-BlackItalic.ttf') format('truetype'),
+        url('Trirong-BlackItalic.svg#Trirong-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-ExtraBold.eot');
+    src: url('Trirong-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-ExtraBold.woff2') format('woff2'),
+        url('Trirong-ExtraBold.woff') format('woff'),
+        url('Trirong-ExtraBold.ttf') format('truetype'),
+        url('Trirong-ExtraBold.svg#Trirong-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Italic.eot');
+    src: url('Trirong-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Italic.woff2') format('woff2'),
+        url('Trirong-Italic.woff') format('woff'),
+        url('Trirong-Italic.ttf') format('truetype'),
+        url('Trirong-Italic.svg#Trirong-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Medium.eot');
+    src: url('Trirong-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Medium.woff2') format('woff2'),
+        url('Trirong-Medium.woff') format('woff'),
+        url('Trirong-Medium.ttf') format('truetype'),
+        url('Trirong-Medium.svg#Trirong-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Black.eot');
+    src: url('Trirong-Black.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Black.woff2') format('woff2'),
+        url('Trirong-Black.woff') format('woff'),
+        url('Trirong-Black.ttf') format('truetype'),
+        url('Trirong-Black.svg#Trirong-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-ExtraLightItalic.eot');
+    src: url('Trirong-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-ExtraLightItalic.woff2') format('woff2'),
+        url('Trirong-ExtraLightItalic.woff') format('woff'),
+        url('Trirong-ExtraLightItalic.ttf') format('truetype'),
+        url('Trirong-ExtraLightItalic.svg#Trirong-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-ExtraBoldItalic.eot');
+    src: url('Trirong-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-ExtraBoldItalic.woff2') format('woff2'),
+        url('Trirong-ExtraBoldItalic.woff') format('woff'),
+        url('Trirong-ExtraBoldItalic.ttf') format('truetype'),
+        url('Trirong-ExtraBoldItalic.svg#Trirong-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Thin.eot');
+    src: url('Trirong-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-Thin.woff2') format('woff2'),
+        url('Trirong-Thin.woff') format('woff'),
+        url('Trirong-Thin.ttf') format('truetype'),
+        url('Trirong-Thin.svg#Trirong-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-SemiBold.eot');
+    src: url('Trirong-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Trirong-SemiBold.woff2') format('woff2'),
+        url('Trirong-SemiBold.woff') format('woff'),
+        url('Trirong-SemiBold.ttf') format('truetype'),
+        url('Trirong-SemiBold.svg#Trirong-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
