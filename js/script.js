@@ -64,7 +64,7 @@ $(document).ready(function () {
       // console.log(scroll);
 
     })
-    //----arrow Down-----//
+    //----arrow Down---- -//
     $('.arrow a').click(function(){
         var height = $('.menu').innerHeight();
         var down = $("#footer");
@@ -85,6 +85,7 @@ $(document).ready(function () {
     if (scroll > header) {
         $('#top').fadeIn();
     }
+    // исчезнавение и появление стрелки вверх когда в самом верху //
     $(window).scroll(function () {
         var scroll = $(this).scrollTop();
         var header = $('.scroll').innerHeight();
